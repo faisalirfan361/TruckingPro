@@ -13,6 +13,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
 
     @IBOutlet weak var scroll: UICollectionView!
     var riskNames: [NSString] = ["Fatigue", "Icy Roads", "Collision Wind", "Fog", "Theft", "Hill", "Backing", "Wildlife", "Curves", "Collision"]
+    var riskAPM: [NSString] = ["AM", "AM", "PM", "AM", "AM", "PM", "AM", "PM", "AM", "AM"]
 
     var isFirstView = true
     var colorArrays = Array<Array<AnyObject>>()
@@ -52,13 +53,12 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         self.navigationController?.pushViewController(settingsViewController as UIViewController, animated: true)
     }
     
+    @IBAction func loadSafety(sender: AnyObject) {
+        self.showSafetyDetails()
+    }
+    
+    
     func loadSafetyEvents(){
-        safetyRec0.addTarget(self, action: "showSafetyDetails")
-        safetyInfo0.addGestureRecognizer(safetyRec0)
-        safetyRec1.addTarget(self, action: "showSafetyDetails")
-        safetyInfo1.addGestureRecognizer(safetyRec1)
-        safetyRec2.addTarget(self, action: "showSafetyDetails")
-        safetyInfo2.addGestureRecognizer(safetyRec2)
         loadColors()
     }
 
@@ -70,15 +70,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         OuterSafetyView.layer.addSublayer(topBorder)
         familyMessage.layer.addSublayer(topBorder)
         
-        var rBorder0 = CALayer();
-        rBorder0.frame = CGRectMake(safetyInfo0.bounds.size.width, 0.0, 1.0, safetyInfo0.bounds.size.height - 8);
-        rBorder0.backgroundColor = UIColor(red: 105, green: 77, blue: 79, alpha: 0.2).CGColor//[UIColor redColor].CGColor;
-        safetyInfo0.layer.addSublayer(rBorder0)
-        
-        var rBorder1 = CALayer();
-        rBorder1.frame = CGRectMake(safetyInfo1.bounds.size.width, 0.0, 1.0, safetyInfo1.bounds.size.height - 8);
-        rBorder1.backgroundColor = UIColor(red: 105, green: 77, blue: 79, alpha: 0.2).CGColor//[UIColor redColor].CGColor;
-        safetyInfo1.layer.addSublayer(rBorder1)
+        OuterSafetyView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
     }
     
     func addCamsIcon(){
@@ -436,6 +428,10 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         var eCardImageView: UIImageView = cell.viewWithTag(2) as UIImageView
         
         var riskTitle: UILabel = cell.viewWithTag(3) as UILabel
+        
+        var timeTitle: UILabel = cell.viewWithTag(6) as UILabel
+        
+        timeTitle.text = riskAPM[indexPath.row]
         
         cell.viewWithTag(4)?.removeFromSuperview()
 

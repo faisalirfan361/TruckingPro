@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="unc-qW-eTS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="unc-qW-eTS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -489,14 +489,14 @@ colorado dont forget your mittens.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lcl-XE-mmf">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lcl-XE-mmf">
                                 <rect key="frame" x="0.0" y="65" width="321" height="40"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4Q-U2-ecb">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V4Q-U2-ecb">
                                         <rect key="frame" x="160" y="2" width="1" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fx-KH-LXJ">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fx-KH-LXJ">
                                         <rect key="frame" x="160" y="0.0" width="160" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Manager Messages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya6-nY-8uk">
@@ -508,10 +508,10 @@ colorado dont forget your mittens.</string>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="tieicon" translatesAutoresizingMaskIntoConstraints="NO" id="OIH-pS-3RY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tieicon" translatesAutoresizingMaskIntoConstraints="NO" id="OIH-pS-3RY">
                                         <rect key="frame" x="164" y="9" width="22" height="22"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXi-Bg-Cnb">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXi-Bg-Cnb">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="40"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="steericon" translatesAutoresizingMaskIntoConstraints="NO" id="q8q-rJ-JVR">
@@ -537,7 +537,7 @@ colorado dont forget your mittens.</string>
                                     <constraint firstItem="5fx-KH-LXJ" firstAttribute="leading" secondItem="V4Q-U2-ecb" secondAttribute="trailing" constant="-1" id="rcS-cu-EZr"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GvR-LQ-Vbc">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GvR-LQ-Vbc">
                                 <rect key="frame" x="0.0" y="105" width="320" height="69"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Kevin Blackman       " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bq7-MK-GfK">
@@ -555,7 +555,7 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="The wind on I15 by Ogden is fierce today" translatesAutoresizingMaskIntoConstraints="NO" id="qAS-X2-nam">
+                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="The wind on I15 by Ogden is fierce today" translatesAutoresizingMaskIntoConstraints="NO" id="qAS-X2-nam">
                                         <rect key="frame" x="56" y="24" width="244" height="45"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -575,7 +575,7 @@ colorado dont forget your mittens.</string>
                                     <constraint firstAttribute="trailing" secondItem="qAS-X2-nam" secondAttribute="trailing" constant="20" id="exE-ka-Efm"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qf2-TB-g2T">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qf2-TB-g2T">
                                 <rect key="frame" x="0.0" y="174" width="320" height="69"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Norris D’Silva        " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-pg-Eqc">
@@ -593,14 +593,14 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Be careful at curve 26 on Highway 47. There is a deep pothole." translatesAutoresizingMaskIntoConstraints="NO" id="Ay2-x3-7Xy">
+                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Be careful at curve 26 on Highway 47. There is a deep pothole." translatesAutoresizingMaskIntoConstraints="NO" id="Ay2-x3-7Xy">
                                         <rect key="frame" x="56" y="24" width="244" height="45"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="likeu" translatesAutoresizingMaskIntoConstraints="NO" id="9vf-HW-yoo">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="likeu" translatesAutoresizingMaskIntoConstraints="NO" id="9vf-HW-yoo">
                                         <rect key="frame" x="290" y="22" width="20" height="18"/>
                                     </imageView>
                                 </subviews>
@@ -653,10 +653,10 @@ colorado dont forget your mittens.</string>
                                     <constraint firstItem="d0g-KV-hbI" firstAttribute="leading" secondItem="oHu-cw-872" secondAttribute="trailing" constant="8" id="lF1-nJ-PPy"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-Ol-y9Y">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-Ol-y9Y">
                                 <rect key="frame" x="0.0" y="312" width="320" height="69"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Travis Michael" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csd-TG-U0S">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Travis Michael" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csd-TG-U0S">
                                         <rect key="frame" x="62" y="13" width="111" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -671,14 +671,14 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Avoid overspeeding near the forest area. Abundance of wildlife." translatesAutoresizingMaskIntoConstraints="NO" id="vtw-pW-6zy">
+                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Avoid overspeeding near the forest area. Abundance of wildlife." translatesAutoresizingMaskIntoConstraints="NO" id="vtw-pW-6zy">
                                         <rect key="frame" x="56" y="24" width="244" height="45"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="likeu" translatesAutoresizingMaskIntoConstraints="NO" id="8LS-d7-Dda">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="likeu" translatesAutoresizingMaskIntoConstraints="NO" id="8LS-d7-Dda">
                                         <rect key="frame" x="290" y="22" width="20" height="18"/>
                                     </imageView>
                                 </subviews>
@@ -691,7 +691,7 @@ colorado dont forget your mittens.</string>
                                     <constraint firstAttribute="trailing" secondItem="vtw-pW-6zy" secondAttribute="trailing" constant="20" id="rtG-5c-zrT"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XXk-09-Ib7">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XXk-09-Ib7">
                                 <rect key="frame" x="0.0" y="384" width="320" height="69"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lori Newman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtX-Ul-58U">
@@ -700,7 +700,7 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="user5" translatesAutoresizingMaskIntoConstraints="NO" id="CxX-rJ-OlG">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user5" translatesAutoresizingMaskIntoConstraints="NO" id="CxX-rJ-OlG">
                                         <rect key="frame" x="8" y="11" width="45" height="45"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friday  12.00 pm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZsY-di-k6b">
@@ -782,89 +782,40 @@ colorado dont forget your mittens.</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TJ0-11-7A9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zv1-jC-lkH">
-                                        <rect key="frame" x="1" y="1" width="105" height="87"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=" SAFE MONTHS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUL-9l-uoy">
-                                                <rect key="frame" x="-4" y="14" width="113" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <color key="textColor" red="0.94117647059999998" green="0.89411764709999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="56" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTW-bx-44d">
-                                                <rect key="frame" x="0.0" y="47" width="105" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1058823529" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="qUL-9l-uoy" firstAttribute="width" secondItem="Zv1-jC-lkH" secondAttribute="width" constant="8" id="b3f-Cv-CWU"/>
-                                            <constraint firstAttribute="width" secondItem="jTW-bx-44d" secondAttribute="width" id="mAz-rC-7v9"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZ9-w6-Jb1">
-                                        <rect key="frame" x="107" y="1" width="105" height="87"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=" SAFE MILES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZz-y3-JoE">
-                                                <rect key="frame" x="0.0" y="14" width="105" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <color key="textColor" red="0.94117647059999998" green="0.89411764709999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="70000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ch-Ju-5m9">
-                                                <rect key="frame" x="0.0" y="47" width="105" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1058823529" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="UZz-y3-JoE" secondAttribute="width" id="RDJ-fb-w0r"/>
-                                            <constraint firstAttribute="width" secondItem="2ch-Ju-5m9" secondAttribute="width" id="RwR-ds-711"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M27-kb-ijm">
-                                        <rect key="frame" x="213" y="1" width="107" height="87"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="OVERALL SCORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yu-D9-qSu">
-                                                <rect key="frame" x="1" y="13" width="103" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <color key="textColor" red="0.94117647059999998" green="0.89411764709999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" tag="13" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="943" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-B3-G7J">
-                                                <rect key="frame" x="0.0" y="46" width="105" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.1019607843" green="0.1019607843" blue="0.1058823529" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="6Yu-D9-qSu" secondAttribute="width" constant="4" id="EYu-jO-Edv"/>
-                                            <constraint firstAttribute="width" secondItem="Yg8-B3-G7J" secondAttribute="width" constant="2" id="ivO-WY-zb3"/>
-                                        </constraints>
-                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Safety Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwG-hw-ik4">
+                                        <rect key="frame" x="19" y="12" width="99" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trophy1" translatesAutoresizingMaskIntoConstraints="NO" id="sSh-7N-O7E">
+                                        <rect key="frame" x="202" y="8" width="29" height="29"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trophy2" translatesAutoresizingMaskIntoConstraints="NO" id="UHL-wH-dXy">
+                                        <rect key="frame" x="239" y="8" width="29" height="29"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trophy3" translatesAutoresizingMaskIntoConstraints="NO" id="Fgi-78-MSX">
+                                        <rect key="frame" x="276" y="8" width="29" height="29"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ob-ab-2qJ">
+                                        <rect key="frame" x="0.0" y="5" width="320" height="36"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loadSafety:" destination="SIJ-Mr-tJL" eventType="touchUpInside" id="dD2-4e-gdU"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="fZ9-w6-Jb1" firstAttribute="width" secondItem="M27-kb-ijm" secondAttribute="width" constant="-2" id="HuG-8k-oHv"/>
-                                    <constraint firstItem="fZ9-w6-Jb1" firstAttribute="width" secondItem="Zv1-jC-lkH" secondAttribute="width" id="YGs-7U-9B7"/>
-                                    <constraint firstAttribute="trailing" secondItem="M27-kb-ijm" secondAttribute="trailing" id="Zh6-G7-5UF"/>
-                                    <constraint firstAttribute="bottom" secondItem="Zv1-jC-lkH" secondAttribute="bottom" constant="4" id="aeu-tJ-2Lx"/>
-                                    <constraint firstAttribute="bottom" secondItem="fZ9-w6-Jb1" secondAttribute="bottom" constant="4" id="fUO-be-3UE"/>
-                                    <constraint firstItem="Zv1-jC-lkH" firstAttribute="leading" secondItem="TJ0-11-7A9" secondAttribute="leading" constant="1" id="l1m-O1-197"/>
-                                    <constraint firstAttribute="bottom" secondItem="M27-kb-ijm" secondAttribute="bottom" constant="4" id="nv1-Yw-K6z"/>
-                                    <constraint firstItem="M27-kb-ijm" firstAttribute="leading" secondItem="fZ9-w6-Jb1" secondAttribute="trailing" constant="1" id="pBX-V2-qfK"/>
-                                    <constraint firstItem="fZ9-w6-Jb1" firstAttribute="leading" secondItem="Zv1-jC-lkH" secondAttribute="trailing" constant="1" id="swR-or-YG8"/>
+                                    <constraint firstItem="MwG-hw-ik4" firstAttribute="leading" secondItem="TJ0-11-7A9" secondAttribute="leading" constant="19" id="Cyn-aU-SbA"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SaL-al-GM1">
-                                <rect key="frame" x="0.0" y="87" width="320" height="126"/>
+                                <rect key="frame" x="0.0" y="47" width="320" height="126"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="F9X-TS-Rae">
                                         <rect key="frame" x="-1" y="0.0" width="320" height="125"/>
@@ -902,6 +853,12 @@ colorado dont forget your mittens.</string>
                                                             <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KB1-TG-aSB">
+                                                            <rect key="frame" x="29" y="35" width="42" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
@@ -922,7 +879,7 @@ colorado dont forget your mittens.</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUW-Ss-yiB">
-                                <rect key="frame" x="0.0" y="213" width="320" height="40"/>
+                                <rect key="frame" x="0.0" y="174" width="320" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Safety Messages and tips" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4a-F4-Pq2">
                                         <rect key="frame" x="52" y="9" width="198" height="21"/>
@@ -961,11 +918,11 @@ colorado dont forget your mittens.</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xrH-1v-t96">
-                                <rect key="frame" x="0.0" y="252" width="320" height="96"/>
+                                <rect key="frame" x="0.0" y="213" width="320" height="96"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                             <textView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaS-z2-K5a">
-                                <rect key="frame" x="0.0" y="252" width="320" height="74"/>
+                                <rect key="frame" x="0.0" y="213" width="320" height="74"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text"> Roughly one-third of all fatal work-zone accidents involve large trucks. Make sure to take your time going through interstate construction  
 </string>
@@ -974,7 +931,7 @@ colorado dont forget your mittens.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17B-NM-hai">
-                                <rect key="frame" x="0.0" y="325" width="320" height="179"/>
+                                <rect key="frame" x="0.0" y="286" width="320" height="179"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="chatballon" translatesAutoresizingMaskIntoConstraints="NO" id="a8L-Uy-yZE">
                                         <rect key="frame" x="7" y="36" width="136" height="134"/>
@@ -1047,9 +1004,6 @@ colorado dont forget your mittens.</string>
                     <connections>
                         <outlet property="OuterSafetyView" destination="TJ0-11-7A9" id="1sr-l3-4ym"/>
                         <outlet property="familyMessage" destination="17B-NM-hai" id="45V-2v-dcp"/>
-                        <outlet property="safetyInfo0" destination="Zv1-jC-lkH" id="EPy-M1-KR4"/>
-                        <outlet property="safetyInfo1" destination="fZ9-w6-Jb1" id="xRr-4e-dVu"/>
-                        <outlet property="safetyInfo2" destination="M27-kb-ijm" id="lHm-zq-mm2"/>
                         <outlet property="scroll" destination="F9X-TS-Rae" id="xdm-YI-7tZ"/>
                     </connections>
                 </viewController>
@@ -1138,14 +1092,14 @@ colorado dont forget your mittens.</string>
                                             <rect key="frame" x="11" y="123" width="298" height="86"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PQC-dS-ZGb">
-                                                    <rect key="frame" x="0.0" y="15" width="60" height="71"/>
+                                                    <rect key="frame" x="0.0" y="15" width="104" height="71"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94F-fM-Ieg">
-                                                            <rect key="frame" x="0.0" y="64" width="68" height="7"/>
+                                                            <rect key="frame" x="0.0" y="64" width="112" height="7"/>
                                                             <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="worse" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNp-Ab-ED8">
-                                                            <rect key="frame" x="0.0" y="25" width="58" height="21"/>
+                                                            <rect key="frame" x="0.0" y="25" width="102" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -1161,41 +1115,15 @@ colorado dont forget your mittens.</string>
                                                         <constraint firstAttribute="trailing" secondItem="gNp-Ab-ED8" secondAttribute="trailing" constant="2" id="t1t-xU-SnE"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="84X-y4-dRH">
-                                                    <rect key="frame" x="60" y="15" width="60" height="71"/>
-                                                    <subviews>
-                                                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1nT-1c-fvS">
-                                                            <rect key="frame" x="0.0" y="64" width="68" height="7"/>
-                                                            <color key="backgroundColor" red="0.91764705882352937" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69e-Wx-2w4">
-                                                            <rect key="frame" x="0.0" y="17" width="68" height="38"/>
-                                                            <string key="text">As indicated</string>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="69e-Wx-2w4" secondAttribute="width" constant="-8" id="7ei-yY-1yf"/>
-                                                        <constraint firstAttribute="trailing" secondItem="1nT-1c-fvS" secondAttribute="trailing" constant="-8" id="7rc-LG-TUz"/>
-                                                        <constraint firstItem="1nT-1c-fvS" firstAttribute="width" secondItem="84X-y4-dRH" secondAttribute="width" constant="8" id="ETK-C3-1kd"/>
-                                                        <constraint firstItem="1nT-1c-fvS" firstAttribute="leading" secondItem="84X-y4-dRH" secondAttribute="leading" id="O21-xW-5MM"/>
-                                                        <constraint firstAttribute="trailing" secondItem="69e-Wx-2w4" secondAttribute="trailing" constant="-8" id="VXg-MI-WQf"/>
-                                                        <constraint firstItem="69e-Wx-2w4" firstAttribute="leading" secondItem="84X-y4-dRH" secondAttribute="leading" id="nYa-qr-UbR"/>
-                                                    </constraints>
-                                                </view>
                                                 <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFl-ZN-Yrp">
-                                                    <rect key="frame" x="120" y="15" width="60" height="71"/>
+                                                    <rect key="frame" x="104" y="15" width="102" height="71"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IUY-Yz-dwF">
-                                                            <rect key="frame" x="0.0" y="64" width="68" height="7"/>
+                                                            <rect key="frame" x="0.0" y="64" width="110" height="7"/>
                                                             <color key="backgroundColor" red="0.98431372549019602" green="0.50196078431372548" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdd-V2-urF">
-                                                            <rect key="frame" x="0.0" y="17" width="68" height="38"/>
-                                                            <string key="text">No warning</string>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Not as bad" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdd-V2-urF">
+                                                            <rect key="frame" x="0.0" y="17" width="110" height="38"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -1211,41 +1139,15 @@ colorado dont forget your mittens.</string>
                                                         <constraint firstAttribute="trailing" secondItem="Mdd-V2-urF" secondAttribute="trailing" constant="-8" id="ncq-em-rzT"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y6Z-zK-6GR">
-                                                    <rect key="frame" x="180" y="15" width="60" height="71"/>
-                                                    <subviews>
-                                                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpt-V0-KDx">
-                                                            <rect key="frame" x="0.0" y="64" width="68" height="7"/>
-                                                            <color key="backgroundColor" red="1" green="0.96470588235294119" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fem-lg-pYI">
-                                                            <rect key="frame" x="0.0" y="17" width="68" height="38"/>
-                                                            <string key="text">Not as indicated</string>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstItem="fem-lg-pYI" firstAttribute="leading" secondItem="y6Z-zK-6GR" secondAttribute="leading" id="8HV-gE-6dg"/>
-                                                        <constraint firstItem="fem-lg-pYI" firstAttribute="width" secondItem="y6Z-zK-6GR" secondAttribute="width" constant="8" id="Cov-Nv-vIA"/>
-                                                        <constraint firstItem="Wpt-V0-KDx" firstAttribute="leading" secondItem="y6Z-zK-6GR" secondAttribute="leading" id="FbK-nM-JDV"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Wpt-V0-KDx" secondAttribute="trailing" constant="-8" id="FeI-dI-lgj"/>
-                                                        <constraint firstAttribute="width" secondItem="Wpt-V0-KDx" secondAttribute="width" constant="-8" id="YfI-U3-mBU"/>
-                                                        <constraint firstAttribute="trailing" secondItem="fem-lg-pYI" secondAttribute="trailing" constant="-8" id="aUj-T7-t16"/>
-                                                    </constraints>
-                                                </view>
                                                 <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0da-Xm-f4j">
-                                                    <rect key="frame" x="240" y="15" width="59" height="71"/>
+                                                    <rect key="frame" x="205" y="15" width="94" height="71"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXU-Uv-Rgv">
-                                                            <rect key="frame" x="0.0" y="64" width="68" height="7"/>
+                                                            <rect key="frame" x="0.0" y="63" width="94" height="8"/>
                                                             <color key="backgroundColor" red="0.45098039215686275" green="0.88627450980392153" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lny-cM-ibn">
-                                                            <rect key="frame" x="0.0" y="17" width="68" height="38"/>
-                                                            <string key="text">NotEvident</string>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="as bad" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lny-cM-ibn">
+                                                            <rect key="frame" x="-6" y="17" width="109" height="38"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -1254,26 +1156,21 @@ colorado dont forget your mittens.</string>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstItem="xXU-Uv-Rgv" firstAttribute="leading" secondItem="0da-Xm-f4j" secondAttribute="leading" id="8b4-ax-9RU"/>
-                                                        <constraint firstAttribute="trailing" secondItem="xXU-Uv-Rgv" secondAttribute="trailing" constant="-9" id="UZ0-Dh-kVc"/>
-                                                        <constraint firstItem="xXU-Uv-Rgv" firstAttribute="width" secondItem="0da-Xm-f4j" secondAttribute="width" constant="9" id="VYC-K0-qUP"/>
+                                                        <constraint firstAttribute="trailing" secondItem="xXU-Uv-Rgv" secondAttribute="trailing" id="UZ0-Dh-kVc"/>
+                                                        <constraint firstItem="xXU-Uv-Rgv" firstAttribute="width" secondItem="0da-Xm-f4j" secondAttribute="width" id="VYC-K0-qUP"/>
                                                         <constraint firstAttribute="trailing" secondItem="lny-cM-ibn" secondAttribute="trailing" constant="-9" id="b7O-n7-DDN"/>
-                                                        <constraint firstItem="lny-cM-ibn" firstAttribute="width" secondItem="0da-Xm-f4j" secondAttribute="width" constant="9" id="ihJ-7G-6eo"/>
-                                                        <constraint firstItem="lny-cM-ibn" firstAttribute="leading" secondItem="0da-Xm-f4j" secondAttribute="leading" id="j4b-xe-vqk"/>
+                                                        <constraint firstItem="lny-cM-ibn" firstAttribute="width" secondItem="0da-Xm-f4j" secondAttribute="width" constant="15" id="ihJ-7G-6eo"/>
+                                                        <constraint firstItem="lny-cM-ibn" firstAttribute="leading" secondItem="0da-Xm-f4j" secondAttribute="leading" constant="-6" id="j4b-xe-vqk"/>
                                                         <constraint firstItem="xXU-Uv-Rgv" firstAttribute="width" secondItem="0da-Xm-f4j" secondAttribute="width" id="yR2-Ba-9y4"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstItem="y6Z-zK-6GR" firstAttribute="leading" secondItem="uFl-ZN-Yrp" secondAttribute="trailing" id="5DD-Fx-FbM"/>
-                                                <constraint firstItem="84X-y4-dRH" firstAttribute="width" secondItem="PQC-dS-ZGb" secondAttribute="width" id="Fdb-LG-eJQ"/>
+                                                <constraint firstItem="0da-Xm-f4j" firstAttribute="leading" secondItem="uFl-ZN-Yrp" secondAttribute="trailing" constant="-1" id="F09-xh-kWC"/>
+                                                <constraint firstItem="uFl-ZN-Yrp" firstAttribute="leading" secondItem="PQC-dS-ZGb" secondAttribute="trailing" id="RKE-ua-Ptf"/>
                                                 <constraint firstAttribute="trailing" secondItem="0da-Xm-f4j" secondAttribute="trailing" constant="-1" id="U0N-Oj-Gld"/>
-                                                <constraint firstItem="0da-Xm-f4j" firstAttribute="leading" secondItem="y6Z-zK-6GR" secondAttribute="trailing" id="WCY-Ac-n5E"/>
-                                                <constraint firstItem="uFl-ZN-Yrp" firstAttribute="width" secondItem="84X-y4-dRH" secondAttribute="width" id="aqI-KW-EIa"/>
-                                                <constraint firstItem="y6Z-zK-6GR" firstAttribute="width" secondItem="uFl-ZN-Yrp" secondAttribute="width" id="bO8-s1-a0X"/>
                                                 <constraint firstItem="PQC-dS-ZGb" firstAttribute="leading" secondItem="b79-Ll-og0" secondAttribute="leading" id="e7P-bv-oRJ"/>
-                                                <constraint firstItem="84X-y4-dRH" firstAttribute="leading" secondItem="PQC-dS-ZGb" secondAttribute="trailing" id="qeQ-Nx-lqC"/>
-                                                <constraint firstItem="uFl-ZN-Yrp" firstAttribute="leading" secondItem="84X-y4-dRH" secondAttribute="trailing" id="vZL-Zt-Fr2"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ihi-ir-sr6">
@@ -1293,7 +1190,6 @@ colorado dont forget your mittens.</string>
                                             <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                                         </view>
                                         <view tag="8" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8rQ-76-Bzb">
-                                            <rect key="frame" x="25" y="51" width="55" height="44"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                     </subviews>
@@ -1363,7 +1259,8 @@ colorado dont forget your mittens.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="KfK-5Y-Zy1">
                                 <rect key="frame" x="6" y="231" width="308" height="54"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">You will encounter a total of 5 traffic cameras on your route. All cameras are listed below for your viewing.</string>
+                                <string key="text">You will encounter a total of 5 traffic cameras on your route. All cameras are listed below for your viewing.
+</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1406,7 +1303,7 @@ colorado dont forget your mittens.</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRI-gY-w6Z">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRI-gY-w6Z">
                                 <rect key="frame" x="0.0" y="383" width="320" height="25"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I42 MP 29 accident, multiple car, traffic blocked reported" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTg-ib-ZV4">
