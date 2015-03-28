@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30E9C5B1ABF4E2600C558AF /* CamUploadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30E9C5A1ABF4E2600C558AF /* CamUploadsViewController.swift */; };
+		D37DC1DF1AB88966007DBC78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DC1DD1AB88966007DBC78 /* CoreGraphics.framework */; };
+		D37DC1E01AB88966007DBC78 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DC1DE1AB88966007DBC78 /* CoreImage.framework */; };
+		D37DC1E21AB88976007DBC78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DC1E11AB88976007DBC78 /* UIKit.framework */; };
+		D37DC2051AB88B78007DBC78 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1E51AB88B78007DBC78 /* MKAnnotationView+WebCache.m */; };
+		D37DC2061AB88B78007DBC78 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1E71AB88B78007DBC78 /* NSData+ImageContentType.m */; };
+		D37DC2071AB88B78007DBC78 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1E91AB88B78007DBC78 /* SDImageCache.m */; };
+		D37DC2081AB88B78007DBC78 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1EB1AB88B78007DBC78 /* SDWebImageCompat.m */; };
+		D37DC2091AB88B78007DBC78 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1ED1AB88B78007DBC78 /* SDWebImageDecoder.m */; };
+		D37DC20A1AB88B78007DBC78 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1EF1AB88B78007DBC78 /* SDWebImageDownloader.m */; };
+		D37DC20B1AB88B78007DBC78 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1F11AB88B78007DBC78 /* SDWebImageDownloaderOperation.m */; };
+		D37DC20C1AB88B78007DBC78 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1F31AB88B78007DBC78 /* SDWebImageManager.m */; };
+		D37DC20D1AB88B78007DBC78 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1F61AB88B78007DBC78 /* SDWebImagePrefetcher.m */; };
+		D37DC20E1AB88B78007DBC78 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1F81AB88B78007DBC78 /* UIButton+WebCache.m */; };
+		D37DC20F1AB88B78007DBC78 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1FA1AB88B78007DBC78 /* UIImage+GIF.m */; };
+		D37DC2101AB88B78007DBC78 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1FC1AB88B78007DBC78 /* UIImage+MultiFormat.m */; };
+		D37DC2111AB88B78007DBC78 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC1FE1AB88B78007DBC78 /* UIImage+WebP.m */; };
+		D37DC2121AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2001AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m */; };
+		D37DC2131AB88B78007DBC78 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2021AB88B78007DBC78 /* UIImageView+WebCache.m */; };
+		D37DC2141AB88B78007DBC78 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */; };
+		D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */; };
+		D3BCB9CC1AAFCF7A00945671 /* TruckingPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9CA1AAFCF7A00945671 /* TruckingPro.xcdatamodeld */; };
+		D3BCB9CE1AAFCF7A00945671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9CD1AAFCF7A00945671 /* ViewController.swift */; };
+		D3BCB9D11AAFCF7A00945671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BCB9CF1AAFCF7A00945671 /* Main.storyboard */; };
+		D3BCB9D31AAFCF7A00945671 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BCB9D21AAFCF7A00945671 /* Images.xcassets */; };
+		D3BCB9D61AAFCF7B00945671 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BCB9D41AAFCF7B00945671 /* LaunchScreen.xib */; };
+		D3BCB9E21AAFCF7B00945671 /* TruckingProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9E11AAFCF7B00945671 /* TruckingProTests.swift */; };
+		D3BCB9F91AAFD1F200945671 /* AllCamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9ED1AAFD1F200945671 /* AllCamsViewController.swift */; };
+		D3BCB9FA1AAFD1F200945671 /* AngleGradientBorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9EE1AAFD1F200945671 /* AngleGradientBorderLayer.swift */; };
+		D3BCB9FB1AAFD1F200945671 /* AngleGradientBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9EF1AAFD1F200945671 /* AngleGradientBorderView.swift */; };
+		D3BCB9FC1AAFD1F200945671 /* cam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F01AAFD1F200945671 /* cam.swift */; };
+		D3BCB9FD1AAFD1F200945671 /* CamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F11AAFD1F200945671 /* CamsViewController.swift */; };
+		D3BCB9FE1AAFD1F200945671 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F21AAFD1F200945671 /* HomeViewController.swift */; };
+		D3BCB9FF1AAFD1F200945671 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F31AAFD1F200945671 /* MapViewController.swift */; };
+		D3BCBA001AAFD1F200945671 /* SafetyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F41AAFD1F200945671 /* SafetyDetailsViewController.swift */; };
+		D3BCBA011AAFD1F200945671 /* SafetyMsgsTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F51AAFD1F200945671 /* SafetyMsgsTipsViewController.swift */; };
+		D3BCBA021AAFD1F200945671 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F61AAFD1F200945671 /* SharedData.swift */; };
+		D3BCBA031AAFD1F200945671 /* TheartEvalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F71AAFD1F200945671 /* TheartEvalViewController.swift */; };
+		D3BCBA041AAFD1F200945671 /* ThreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F81AAFD1F200945671 /* ThreatViewController.swift */; };
+		D3BCBA0A1AAFD26C00945671 /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BCBA091AAFD26C00945671 /* AngleGradientLayer.m */; };
+		D3BCBA3A1AAFD7FD00945671 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCBA391AAFD7FD00945671 /* SwiftyJSON.swift */; };
+		D3D609FE1AB00DF5003A4078 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D609FD1AB00DF5003A4078 /* GoogleMaps.framework */; };
+		D3D60A041AB00EC0003A4078 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D609FF1AB00EC0003A4078 /* AVFoundation.framework */; };
+		D3D60A051AB00EC0003A4078 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A001AB00EC0003A4078 /* CoreData.framework */; };
+		D3D60A061AB00EC0003A4078 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A011AB00EC0003A4078 /* CoreLocation.framework */; };
+		D3D60A071AB00EC0003A4078 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A021AB00EC0003A4078 /* CoreText.framework */; };
+		D3D60A081AB00EC0003A4078 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A031AB00EC0003A4078 /* ImageIO.framework */; };
+		D3D60A0A1AB00EF1003A4078 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A091AB00EF1003A4078 /* libicucore.dylib */; };
+		D3D60A0C1AB00EF8003A4078 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A0B1AB00EF8003A4078 /* libc++.dylib */; };
+		D3D60A0E1AB00F02003A4078 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A0D1AB00F02003A4078 /* libz.dylib */; };
+		D3D60A101AB00F0D003A4078 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A0F1AB00F0D003A4078 /* OpenGLES.framework */; };
+		D3D60A121AB00F15003A4078 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A111AB00F15003A4078 /* QuartzCore.framework */; };
+		D3D60A141AB00F21003A4078 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A131AB00F21003A4078 /* SystemConfiguration.framework */; };
+		D3D60A161AB01825003A4078 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D60A151AB01825003A4078 /* MapsViewController.swift */; };
+		D3D60A181AB018E0003A4078 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D60A171AB018E0003A4078 /* GLKit.framework */; };
+		D3D60A1A1AB01A21003A4078 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3D60A191AB01A21003A4078 /* GoogleMaps.bundle */; };
+		D3EAECD41AC0B6D400C6CBA3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EAECD11AC0B6BC00C6CBA3 /* Alamofire.framework */; };
+		D3EAECD51AC0B6D400C6CBA3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3EAECD11AC0B6BC00C6CBA3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3BCB9DC1AAFCF7B00945671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BCB9BB1AAFCF7A00945671 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BCB9C21AAFCF7A00945671;
+			remoteInfo = TruckingPro;
+		};
+		D3EAECD01AC0B6BC00C6CBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		D3EAECD21AC0B6BC00C6CBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		D3EAECD61AC0B6D400C6CBA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3BCBA381AAFD7C000945671 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3EAECD51AC0B6D400C6CBA3 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D30E9C5A1ABF4E2600C558AF /* CamUploadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamUploadsViewController.swift; sourceTree = "<group>"; };
+		D37DC1DD1AB88966007DBC78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D37DC1DE1AB88966007DBC78 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D37DC1E11AB88976007DBC78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D37DC1E41AB88B78007DBC78 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		D37DC1E51AB88B78007DBC78 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		D37DC1E61AB88B78007DBC78 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		D37DC1E71AB88B78007DBC78 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		D37DC1E81AB88B78007DBC78 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		D37DC1E91AB88B78007DBC78 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		D37DC1EA1AB88B78007DBC78 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		D37DC1EB1AB88B78007DBC78 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		D37DC1EC1AB88B78007DBC78 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		D37DC1ED1AB88B78007DBC78 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		D37DC1EE1AB88B78007DBC78 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		D37DC1EF1AB88B78007DBC78 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		D37DC1F01AB88B78007DBC78 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		D37DC1F11AB88B78007DBC78 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		D37DC1F21AB88B78007DBC78 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		D37DC1F31AB88B78007DBC78 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		D37DC1F41AB88B78007DBC78 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		D37DC1F51AB88B78007DBC78 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		D37DC1F61AB88B78007DBC78 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		D37DC1F71AB88B78007DBC78 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		D37DC1F81AB88B78007DBC78 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		D37DC1F91AB88B78007DBC78 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		D37DC1FA1AB88B78007DBC78 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		D37DC1FB1AB88B78007DBC78 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		D37DC1FC1AB88B78007DBC78 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		D37DC1FD1AB88B78007DBC78 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		D37DC1FE1AB88B78007DBC78 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		D37DC1FF1AB88B78007DBC78 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		D37DC2001AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		D37DC2011AB88B78007DBC78 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		D37DC2021AB88B78007DBC78 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		D37DC2031AB88B78007DBC78 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		D3BCB9C31AAFCF7A00945671 /* TruckingPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckingPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BCB9C71AAFCF7A00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3BCB9CB1AAFCF7A00945671 /* TruckingPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TruckingPro.xcdatamodel; sourceTree = "<group>"; };
+		D3BCB9CD1AAFCF7A00945671 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3BCB9D01AAFCF7A00945671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3BCB9D21AAFCF7A00945671 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3BCB9D51AAFCF7B00945671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3BCB9DB1AAFCF7B00945671 /* TruckingProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckingProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BCB9E01AAFCF7B00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BCB9E11AAFCF7B00945671 /* TruckingProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckingProTests.swift; sourceTree = "<group>"; };
+		D3BCB9ED1AAFD1F200945671 /* AllCamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllCamsViewController.swift; path = "../../CR-England/CR-England/CR-England/AllCamsViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9EE1AAFD1F200945671 /* AngleGradientBorderLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AngleGradientBorderLayer.swift; path = "../../CR-England/CR-England/CR-England/AngleGradientBorderLayer.swift"; sourceTree = "<group>"; };
+		D3BCB9EF1AAFD1F200945671 /* AngleGradientBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AngleGradientBorderView.swift; path = "../../CR-England/CR-England/CR-England/AngleGradientBorderView.swift"; sourceTree = "<group>"; };
+		D3BCB9F01AAFD1F200945671 /* cam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cam.swift; path = "../../CR-England/CR-England/CR-England/cam.swift"; sourceTree = "<group>"; };
+		D3BCB9F11AAFD1F200945671 /* CamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CamsViewController.swift; path = "../../CR-England/CR-England/CR-England/CamsViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9F21AAFD1F200945671 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../CR-England/CR-England/CR-England/HomeViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9F31AAFD1F200945671 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "../../CR-England/CR-England/CR-England/MapViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9F41AAFD1F200945671 /* SafetyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyDetailsViewController.swift; path = "../../CR-England/CR-England/CR-England/SafetyDetailsViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9F51AAFD1F200945671 /* SafetyMsgsTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyMsgsTipsViewController.swift; path = "../../CR-England/CR-England/CR-England/SafetyMsgsTipsViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9F61AAFD1F200945671 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedData.swift; path = "../../CR-England/CR-England/CR-England/SharedData.swift"; sourceTree = "<group>"; };
+		D3BCB9F71AAFD1F200945671 /* TheartEvalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheartEvalViewController.swift; path = "../../CR-England/CR-England/CR-England/TheartEvalViewController.swift"; sourceTree = "<group>"; };
+		D3BCB9F81AAFD1F200945671 /* ThreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThreatViewController.swift; path = "../../CR-England/CR-England/CR-England/ThreatViewController.swift"; sourceTree = "<group>"; };
+		D3BCBA081AAFD26C00945671 /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AngleGradientLayer.h; path = "../../CR-England/CR-England/CR-England/AngleGradientLayer.h"; sourceTree = "<group>"; };
+		D3BCBA091AAFD26C00945671 /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AngleGradientLayer.m; path = "../../CR-England/CR-England/CR-England/AngleGradientLayer.m"; sourceTree = "<group>"; };
+		D3BCBA0E1AAFD3F400945671 /* TruckingPro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TruckingPro-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3BCBA391AAFD7FD00945671 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../CR-England/CR-England/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		D3D609FD1AB00DF5003A4078 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		D3D609FF1AB00EC0003A4078 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D3D60A001AB00EC0003A4078 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D3D60A011AB00EC0003A4078 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D3D60A021AB00EC0003A4078 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D3D60A031AB00EC0003A4078 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D3D60A091AB00EF1003A4078 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		D3D60A0B1AB00EF8003A4078 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		D3D60A0D1AB00F02003A4078 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D3D60A0F1AB00F0D003A4078 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D3D60A111AB00F15003A4078 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3D60A131AB00F21003A4078 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D3D60A151AB01825003A4078 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		D3D60A171AB018E0003A4078 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D3D60A191AB01A21003A4078 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../Downloads/backitup/Alamofire-master 2/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3BCB9C01AAFCF7A00945671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37DC1E21AB88976007DBC78 /* UIKit.framework in Frameworks */,
+				D37DC1DF1AB88966007DBC78 /* CoreGraphics.framework in Frameworks */,
+				D37DC1E01AB88966007DBC78 /* CoreImage.framework in Frameworks */,
+				D3D60A181AB018E0003A4078 /* GLKit.framework in Frameworks */,
+				D3EAECD41AC0B6D400C6CBA3 /* Alamofire.framework in Frameworks */,
+				D3D60A141AB00F21003A4078 /* SystemConfiguration.framework in Frameworks */,
+				D3D60A121AB00F15003A4078 /* QuartzCore.framework in Frameworks */,
+				D3D60A101AB00F0D003A4078 /* OpenGLES.framework in Frameworks */,
+				D3D60A0E1AB00F02003A4078 /* libz.dylib in Frameworks */,
+				D3D60A0C1AB00EF8003A4078 /* libc++.dylib in Frameworks */,
+				D3D60A0A1AB00EF1003A4078 /* libicucore.dylib in Frameworks */,
+				D3D60A041AB00EC0003A4078 /* AVFoundation.framework in Frameworks */,
+				D3D60A051AB00EC0003A4078 /* CoreData.framework in Frameworks */,
+				D3D60A061AB00EC0003A4078 /* CoreLocation.framework in Frameworks */,
+				D3D60A071AB00EC0003A4078 /* CoreText.framework in Frameworks */,
+				D3D60A081AB00EC0003A4078 /* ImageIO.framework in Frameworks */,
+				D3D609FE1AB00DF5003A4078 /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BCB9D81AAFCF7B00945671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35642751AC70E8200878BC3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9F01AAFD1F200945671 /* cam.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		D37DC1E31AB88B78007DBC78 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				D37DC1E41AB88B78007DBC78 /* MKAnnotationView+WebCache.h */,
+				D37DC1E51AB88B78007DBC78 /* MKAnnotationView+WebCache.m */,
+				D37DC1E61AB88B78007DBC78 /* NSData+ImageContentType.h */,
+				D37DC1E71AB88B78007DBC78 /* NSData+ImageContentType.m */,
+				D37DC1E81AB88B78007DBC78 /* SDImageCache.h */,
+				D37DC1E91AB88B78007DBC78 /* SDImageCache.m */,
+				D37DC1EA1AB88B78007DBC78 /* SDWebImageCompat.h */,
+				D37DC1EB1AB88B78007DBC78 /* SDWebImageCompat.m */,
+				D37DC1EC1AB88B78007DBC78 /* SDWebImageDecoder.h */,
+				D37DC1ED1AB88B78007DBC78 /* SDWebImageDecoder.m */,
+				D37DC1EE1AB88B78007DBC78 /* SDWebImageDownloader.h */,
+				D37DC1EF1AB88B78007DBC78 /* SDWebImageDownloader.m */,
+				D37DC1F01AB88B78007DBC78 /* SDWebImageDownloaderOperation.h */,
+				D37DC1F11AB88B78007DBC78 /* SDWebImageDownloaderOperation.m */,
+				D37DC1F21AB88B78007DBC78 /* SDWebImageManager.h */,
+				D37DC1F31AB88B78007DBC78 /* SDWebImageManager.m */,
+				D37DC1F41AB88B78007DBC78 /* SDWebImageOperation.h */,
+				D37DC1F51AB88B78007DBC78 /* SDWebImagePrefetcher.h */,
+				D37DC1F61AB88B78007DBC78 /* SDWebImagePrefetcher.m */,
+				D37DC1F71AB88B78007DBC78 /* UIButton+WebCache.h */,
+				D37DC1F81AB88B78007DBC78 /* UIButton+WebCache.m */,
+				D37DC1F91AB88B78007DBC78 /* UIImage+GIF.h */,
+				D37DC1FA1AB88B78007DBC78 /* UIImage+GIF.m */,
+				D37DC1FB1AB88B78007DBC78 /* UIImage+MultiFormat.h */,
+				D37DC1FC1AB88B78007DBC78 /* UIImage+MultiFormat.m */,
+				D37DC1FD1AB88B78007DBC78 /* UIImage+WebP.h */,
+				D37DC1FE1AB88B78007DBC78 /* UIImage+WebP.m */,
+				D37DC1FF1AB88B78007DBC78 /* UIImageView+HighlightedWebCache.h */,
+				D37DC2001AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m */,
+				D37DC2011AB88B78007DBC78 /* UIImageView+WebCache.h */,
+				D37DC2021AB88B78007DBC78 /* UIImageView+WebCache.m */,
+				D37DC2031AB88B78007DBC78 /* UIView+WebCacheOperation.h */,
+				D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		D3BCB9BA1AAFCF7900945671 = {
+			isa = PBXGroup;
+			children = (
+				D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */,
+				D37DC1E31AB88B78007DBC78 /* SDWebImage */,
+				D37DC1E11AB88976007DBC78 /* UIKit.framework */,
+				D37DC1DD1AB88966007DBC78 /* CoreGraphics.framework */,
+				D37DC1DE1AB88966007DBC78 /* CoreImage.framework */,
+				D3D60A171AB018E0003A4078 /* GLKit.framework */,
+				D3D60A131AB00F21003A4078 /* SystemConfiguration.framework */,
+				D3D60A111AB00F15003A4078 /* QuartzCore.framework */,
+				D3D60A0F1AB00F0D003A4078 /* OpenGLES.framework */,
+				D3D60A0D1AB00F02003A4078 /* libz.dylib */,
+				D3D60A0B1AB00EF8003A4078 /* libc++.dylib */,
+				D3D60A191AB01A21003A4078 /* GoogleMaps.bundle */,
+				D3D60A091AB00EF1003A4078 /* libicucore.dylib */,
+				D3D609FF1AB00EC0003A4078 /* AVFoundation.framework */,
+				D3D60A001AB00EC0003A4078 /* CoreData.framework */,
+				D3D60A011AB00EC0003A4078 /* CoreLocation.framework */,
+				D3D60A021AB00EC0003A4078 /* CoreText.framework */,
+				D3D60A031AB00EC0003A4078 /* ImageIO.framework */,
+				D3BCBA391AAFD7FD00945671 /* SwiftyJSON.swift */,
+				D3D609FD1AB00DF5003A4078 /* GoogleMaps.framework */,
+				D3BCB9C51AAFCF7A00945671 /* TruckingPro */,
+				D3BCB9DE1AAFCF7B00945671 /* TruckingProTests */,
+				D3BCB9C41AAFCF7A00945671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3BCB9C41AAFCF7A00945671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9C31AAFCF7A00945671 /* TruckingPro.app */,
+				D3BCB9DB1AAFCF7B00945671 /* TruckingProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3BCB9C51AAFCF7A00945671 /* TruckingPro */ = {
+			isa = PBXGroup;
+			children = (
+				D35642751AC70E8200878BC3 /* models */,
+				D3BCBA051AAFD1F900945671 /* commons */,
+				D3BCB9EC1AAFD1A100945671 /* controllers */,
+				D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */,
+				D3BCB9CD1AAFCF7A00945671 /* ViewController.swift */,
+				D3BCB9CF1AAFCF7A00945671 /* Main.storyboard */,
+				D3BCB9D21AAFCF7A00945671 /* Images.xcassets */,
+				D3BCB9D41AAFCF7B00945671 /* LaunchScreen.xib */,
+				D3BCB9CA1AAFCF7A00945671 /* TruckingPro.xcdatamodeld */,
+				D3BCB9C61AAFCF7A00945671 /* Supporting Files */,
+			);
+			path = TruckingPro;
+			sourceTree = "<group>";
+		};
+		D3BCB9C61AAFCF7A00945671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9C71AAFCF7A00945671 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3BCB9DE1AAFCF7B00945671 /* TruckingProTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9E11AAFCF7B00945671 /* TruckingProTests.swift */,
+				D3BCB9DF1AAFCF7B00945671 /* Supporting Files */,
+			);
+			path = TruckingProTests;
+			sourceTree = "<group>";
+		};
+		D3BCB9DF1AAFCF7B00945671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9E01AAFCF7B00945671 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3BCB9EC1AAFD1A100945671 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9ED1AAFD1F200945671 /* AllCamsViewController.swift */,
+				D3BCB9F11AAFD1F200945671 /* CamsViewController.swift */,
+				D3BCB9F21AAFD1F200945671 /* HomeViewController.swift */,
+				D3BCB9F31AAFD1F200945671 /* MapViewController.swift */,
+				D3BCB9F41AAFD1F200945671 /* SafetyDetailsViewController.swift */,
+				D3BCB9F51AAFD1F200945671 /* SafetyMsgsTipsViewController.swift */,
+				D3BCB9F61AAFD1F200945671 /* SharedData.swift */,
+				D3BCB9F71AAFD1F200945671 /* TheartEvalViewController.swift */,
+				D3BCB9F81AAFD1F200945671 /* ThreatViewController.swift */,
+				D3D60A151AB01825003A4078 /* MapsViewController.swift */,
+				D30E9C5A1ABF4E2600C558AF /* CamUploadsViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		D3BCBA051AAFD1F900945671 /* commons */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCBA071AAFD24200945671 /* AngleGradientBorder */,
+				D3BCBA061AAFD22C00945671 /* AngleGradientLayer */,
+				D3BCBA0E1AAFD3F400945671 /* TruckingPro-Bridging-Header.h */,
+			);
+			name = commons;
+			sourceTree = "<group>";
+		};
+		D3BCBA061AAFD22C00945671 /* AngleGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCBA081AAFD26C00945671 /* AngleGradientLayer.h */,
+				D3BCBA091AAFD26C00945671 /* AngleGradientLayer.m */,
+			);
+			name = AngleGradientLayer;
+			sourceTree = "<group>";
+		};
+		D3BCBA071AAFD24200945671 /* AngleGradientBorder */ = {
+			isa = PBXGroup;
+			children = (
+				D3BCB9EE1AAFD1F200945671 /* AngleGradientBorderLayer.swift */,
+				D3BCB9EF1AAFD1F200945671 /* AngleGradientBorderView.swift */,
+			);
+			name = AngleGradientBorder;
+			sourceTree = "<group>";
+		};
+		D3EAECCC1AC0B6BC00C6CBA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EAECD11AC0B6BC00C6CBA3 /* Alamofire.framework */,
+				D3EAECD31AC0B6BC00C6CBA3 /* Alamofire iOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3BCB9C21AAFCF7A00945671 /* TruckingPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BCB9E51AAFCF7B00945671 /* Build configuration list for PBXNativeTarget "TruckingPro" */;
+			buildPhases = (
+				D3BCB9BF1AAFCF7A00945671 /* Sources */,
+				D3BCB9C01AAFCF7A00945671 /* Frameworks */,
+				D3BCB9C11AAFCF7A00945671 /* Resources */,
+				D3BCBA381AAFD7C000945671 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3EAECD71AC0B6D400C6CBA3 /* PBXTargetDependency */,
+			);
+			name = TruckingPro;
+			productName = TruckingPro;
+			productReference = D3BCB9C31AAFCF7A00945671 /* TruckingPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3BCB9DA1AAFCF7B00945671 /* TruckingProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BCB9E81AAFCF7B00945671 /* Build configuration list for PBXNativeTarget "TruckingProTests" */;
+			buildPhases = (
+				D3BCB9D71AAFCF7B00945671 /* Sources */,
+				D3BCB9D81AAFCF7B00945671 /* Frameworks */,
+				D3BCB9D91AAFCF7B00945671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BCB9DD1AAFCF7B00945671 /* PBXTargetDependency */,
+			);
+			name = TruckingProTests;
+			productName = TruckingProTests;
+			productReference = D3BCB9DB1AAFCF7B00945671 /* TruckingProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3BCB9BB1AAFCF7A00945671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Smash Analytics";
+				TargetAttributes = {
+					D3BCB9C21AAFCF7A00945671 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D3BCB9DA1AAFCF7B00945671 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 68B76YL3E3;
+						TestTargetID = D3BCB9C21AAFCF7A00945671;
+					};
+				};
+			};
+			buildConfigurationList = D3BCB9BE1AAFCF7A00945671 /* Build configuration list for PBXProject "TruckingPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3BCB9BA1AAFCF7900945671;
+			productRefGroup = D3BCB9C41AAFCF7A00945671 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D3EAECCC1AC0B6BC00C6CBA3 /* Products */;
+					ProjectRef = D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D3BCB9C21AAFCF7A00945671 /* TruckingPro */,
+				D3BCB9DA1AAFCF7B00945671 /* TruckingProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D3EAECD11AC0B6BC00C6CBA3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = D3EAECD01AC0B6BC00C6CBA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3EAECD31AC0B6BC00C6CBA3 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = D3EAECD21AC0B6BC00C6CBA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3BCB9C11AAFCF7A00945671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BCB9D11AAFCF7A00945671 /* Main.storyboard in Resources */,
+				D3BCB9D61AAFCF7B00945671 /* LaunchScreen.xib in Resources */,
+				D3BCB9D31AAFCF7A00945671 /* Images.xcassets in Resources */,
+				D3D60A1A1AB01A21003A4078 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BCB9D91AAFCF7B00945671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3BCB9BF1AAFCF7A00945671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37DC2141AB88B78007DBC78 /* UIView+WebCacheOperation.m in Sources */,
+				D3BCB9FB1AAFD1F200945671 /* AngleGradientBorderView.swift in Sources */,
+				D30E9C5B1ABF4E2600C558AF /* CamUploadsViewController.swift in Sources */,
+				D3BCBA0A1AAFD26C00945671 /* AngleGradientLayer.m in Sources */,
+				D37DC2121AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m in Sources */,
+				D3BCBA041AAFD1F200945671 /* ThreatViewController.swift in Sources */,
+				D3BCB9FA1AAFD1F200945671 /* AngleGradientBorderLayer.swift in Sources */,
+				D3BCB9CE1AAFCF7A00945671 /* ViewController.swift in Sources */,
+				D37DC20C1AB88B78007DBC78 /* SDWebImageManager.m in Sources */,
+				D37DC2091AB88B78007DBC78 /* SDWebImageDecoder.m in Sources */,
+				D3BCB9FF1AAFD1F200945671 /* MapViewController.swift in Sources */,
+				D3BCB9CC1AAFCF7A00945671 /* TruckingPro.xcdatamodeld in Sources */,
+				D37DC20D1AB88B78007DBC78 /* SDWebImagePrefetcher.m in Sources */,
+				D37DC2131AB88B78007DBC78 /* UIImageView+WebCache.m in Sources */,
+				D3BCB9F91AAFD1F200945671 /* AllCamsViewController.swift in Sources */,
+				D3BCB9FE1AAFD1F200945671 /* HomeViewController.swift in Sources */,
+				D3BCB9FC1AAFD1F200945671 /* cam.swift in Sources */,
+				D37DC20F1AB88B78007DBC78 /* UIImage+GIF.m in Sources */,
+				D37DC2111AB88B78007DBC78 /* UIImage+WebP.m in Sources */,
+				D37DC2061AB88B78007DBC78 /* NSData+ImageContentType.m in Sources */,
+				D37DC2081AB88B78007DBC78 /* SDWebImageCompat.m in Sources */,
+				D3BCBA001AAFD1F200945671 /* SafetyDetailsViewController.swift in Sources */,
+				D3BCB9FD1AAFD1F200945671 /* CamsViewController.swift in Sources */,
+				D37DC2071AB88B78007DBC78 /* SDImageCache.m in Sources */,
+				D37DC20A1AB88B78007DBC78 /* SDWebImageDownloader.m in Sources */,
+				D3BCBA011AAFD1F200945671 /* SafetyMsgsTipsViewController.swift in Sources */,
+				D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */,
+				D37DC2101AB88B78007DBC78 /* UIImage+MultiFormat.m in Sources */,
+				D37DC20E1AB88B78007DBC78 /* UIButton+WebCache.m in Sources */,
+				D3BCBA3A1AAFD7FD00945671 /* SwiftyJSON.swift in Sources */,
+				D37DC2051AB88B78007DBC78 /* MKAnnotationView+WebCache.m in Sources */,
+				D37DC20B1AB88B78007DBC78 /* SDWebImageDownloaderOperation.m in Sources */,
+				D3D60A161AB01825003A4078 /* MapsViewController.swift in Sources */,
+				D3BCBA031AAFD1F200945671 /* TheartEvalViewController.swift in Sources */,
+				D3BCBA021AAFD1F200945671 /* SharedData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BCB9D71AAFCF7B00945671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BCB9E21AAFCF7B00945671 /* TruckingProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3BCB9DD1AAFCF7B00945671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BCB9C21AAFCF7A00945671 /* TruckingPro */;
+			targetProxy = D3BCB9DC1AAFCF7B00945671 /* PBXContainerItemProxy */;
+		};
+		D3EAECD71AC0B6D400C6CBA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = D3EAECD61AC0B6D400C6CBA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3BCB9CF1AAFCF7A00945671 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BCB9D01AAFCF7A00945671 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3BCB9D41AAFCF7B00945671 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BCB9D51AAFCF7B00945671 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3BCB9E31AAFCF7B00945671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kelly Phillipps";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kelly Phillipps";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "6d29b39c-7800-44cf-898c-48171a0f7d35";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3BCB9E41AAFCF7B00945671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kelly Phillipps";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kelly Phillipps";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "6d29b39c-7800-44cf-898c-48171a0f7d35";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BCB9E61AAFCF7B00945671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TruckingPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TruckingPro/TruckingPro-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		D3BCB9E71AAFCF7B00945671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TruckingPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TruckingPro/TruckingPro-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D3BCB9E91AAFCF7B00945671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TruckingProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruckingPro.app/TruckingPro";
+			};
+			name = Debug;
+		};
+		D3BCB9EA1AAFCF7B00945671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TruckingProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruckingPro.app/TruckingPro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3BCB9BE1AAFCF7A00945671 /* Build configuration list for PBXProject "TruckingPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BCB9E31AAFCF7B00945671 /* Debug */,
+				D3BCB9E41AAFCF7B00945671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BCB9E51AAFCF7B00945671 /* Build configuration list for PBXNativeTarget "TruckingPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BCB9E61AAFCF7B00945671 /* Debug */,
+				D3BCB9E71AAFCF7B00945671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BCB9E81AAFCF7B00945671 /* Build configuration list for PBXNativeTarget "TruckingProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BCB9E91AAFCF7B00945671 /* Debug */,
+				D3BCB9EA1AAFCF7B00945671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3BCB9CA1AAFCF7A00945671 /* TruckingPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3BCB9CB1AAFCF7A00945671 /* TruckingPro.xcdatamodel */,
+			);
+			currentVersion = D3BCB9CB1AAFCF7A00945671 /* TruckingPro.xcdatamodel */;
+			path = TruckingPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3BCB9BB1AAFCF7A00945671 /* Project object */;
+}

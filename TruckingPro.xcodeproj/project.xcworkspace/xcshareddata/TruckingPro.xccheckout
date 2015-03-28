@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ADD2C776-BBE2-4A0C-B29E-DEDB730833C4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>61E12C79BFF66A7FF9C04727FC33096869947DFE</key>
+		<string>github.com:faisalirfan361/TruckingPro.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>61E12C79BFF66A7FF9C04727FC33096869947DFE</key>
+		<string>CR-England/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:faisalirfan361/TruckingPro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>61E12C79BFF66A7FF9C04727FC33096869947DFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>61E12C79BFF66A7FF9C04727FC33096869947DFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CR-England</string>
+		</dict>
+	</array>
+</dict>
+</plist>
