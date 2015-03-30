@@ -5,4 +5,4 @@
 
 #import "AngleGradientLayer.h"
 #import <GoogleMaps/GoogleMaps.h>
-#import "UIImageView+WebCache.h"
+#import <SDWebImage/UIImageView+WebCache.h>

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		50E2FC87906A9E3737F0ED9A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4697C23D524C33470C88AC9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C3EC5BF01ACA097800AD49B2 /* AngleGradientBorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC5BEE1ACA097800AD49B2 /* AngleGradientBorderLayer.swift */; };
+		C3EC5BF11ACA097800AD49B2 /* AngleGradientBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC5BEF1ACA097800AD49B2 /* AngleGradientBorderView.swift */; };
+		C3EC5BF41ACA0A4800AD49B2 /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC5BF31ACA0A4800AD49B2 /* AngleGradientLayer.m */; };
 		D30E9C5B1ABF4E2600C558AF /* CamUploadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30E9C5A1ABF4E2600C558AF /* CamUploadsViewController.swift */; };
 		D37DC1DF1AB88966007DBC78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DC1DD1AB88966007DBC78 /* CoreGraphics.framework */; };
 		D37DC1E01AB88966007DBC78 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DC1DE1AB88966007DBC78 /* CoreImage.framework */; };
@@ -72,6 +75,11 @@
 
 /* Begin PBXFileReference section */
 		87554EA06DD290D44F5C3875 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C3EC5BE91ACA048300AD49B2 /* TruckingPro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TruckingPro-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3EC5BEE1ACA097800AD49B2 /* AngleGradientBorderLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleGradientBorderLayer.swift; sourceTree = "<group>"; };
+		C3EC5BEF1ACA097800AD49B2 /* AngleGradientBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleGradientBorderView.swift; sourceTree = "<group>"; };
+		C3EC5BF21ACA0A4800AD49B2 /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngleGradientLayer.h; sourceTree = "<group>"; };
+		C3EC5BF31ACA0A4800AD49B2 /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngleGradientLayer.m; sourceTree = "<group>"; };
 		D30E9C5A1ABF4E2600C558AF /* CamUploadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamUploadsViewController.swift; sourceTree = "<group>"; };
 		D37DC1DD1AB88966007DBC78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D37DC1DE1AB88966007DBC78 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -86,7 +94,7 @@
 		D38099E81ACA044200EF9DA3 /* TheartEvalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheartEvalViewController.swift; sourceTree = "<group>"; };
 		D38099EA1ACA045E00EF9DA3 /* ThreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreatViewController.swift; sourceTree = "<group>"; };
 		D38099EC1ACA048600EF9DA3 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
-		D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyDetailsViewController.swift; path = TruckingPro/SafetyDetailsViewController.swift; sourceTree = "<group>"; };
+		D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyDetailsViewController.swift; sourceTree = "<group>"; };
 		D3BCB9C31AAFCF7A00945671 /* TruckingPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckingPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BCB9C71AAFCF7A00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +106,6 @@
 		D3BCB9DB1AAFCF7B00945671 /* TruckingProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckingProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BCB9E01AAFCF7B00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BCB9E11AAFCF7B00945671 /* TruckingProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckingProTests.swift; sourceTree = "<group>"; };
-		D3BCBA0E1AAFD3F400945671 /* TruckingPro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TruckingPro-Bridging-Header.h"; sourceTree = "<group>"; };
 		D3D609FD1AB00DF5003A4078 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		D3D609FF1AB00EC0003A4078 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D3D60A001AB00EC0003A4078 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -206,7 +213,6 @@
 		D3BCB9BA1AAFCF7900945671 = {
 			isa = PBXGroup;
 			children = (
-				D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */,
 				D3BCB9C51AAFCF7A00945671 /* TruckingPro */,
 				D3BCB9DE1AAFCF7B00945671 /* TruckingProTests */,
 				D3BCB9C41AAFCF7A00945671 /* Products */,
@@ -271,6 +277,9 @@
 		D3BCB9EC1AAFD1A100945671 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C3EC5BEE1ACA097800AD49B2 /* AngleGradientBorderLayer.swift */,
+				C3EC5BEF1ACA097800AD49B2 /* AngleGradientBorderView.swift */,
+				D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */,
 				D38099EC1ACA048600EF9DA3 /* SharedData.swift */,
 				D38099EA1ACA045E00EF9DA3 /* ThreatViewController.swift */,
 				D38099E81ACA044200EF9DA3 /* TheartEvalViewController.swift */,
@@ -287,7 +296,9 @@
 		D3BCBA051AAFD1F900945671 /* commons */ = {
 			isa = PBXGroup;
 			children = (
-				D3BCBA0E1AAFD3F400945671 /* TruckingPro-Bridging-Header.h */,
+				C3EC5BF21ACA0A4800AD49B2 /* AngleGradientLayer.h */,
+				C3EC5BF31ACA0A4800AD49B2 /* AngleGradientLayer.m */,
+				C3EC5BE91ACA048300AD49B2 /* TruckingPro-Bridging-Header.h */,
 			);
 			name = commons;
 			sourceTree = "<group>";
@@ -461,12 +472,15 @@
 				D38099D51AC9FEE500EF9DA3 /* BaseTableView.swift in Sources */,
 				D38099E91ACA044200EF9DA3 /* TheartEvalViewController.swift in Sources */,
 				D38099E71ACA041500EF9DA3 /* SafetyMsgsTipsViewController.swift in Sources */,
+				C3EC5BF11ACA097800AD49B2 /* AngleGradientBorderView.swift in Sources */,
 				D3BCB9CE1AAFCF7A00945671 /* ViewController.swift in Sources */,
+				C3EC5BF01ACA097800AD49B2 /* AngleGradientBorderLayer.swift in Sources */,
 				D3BCB9CC1AAFCF7A00945671 /* TruckingPro.xcdatamodeld in Sources */,
 				D38099EF1ACA054800EF9DA3 /* SafetyDetailsViewController.swift in Sources */,
 				D38099EB1ACA045E00EF9DA3 /* ThreatViewController.swift in Sources */,
 				D38099DB1ACA02AD00EF9DA3 /* cam.swift in Sources */,
 				D38099D71AC9FF3700EF9DA3 /* BaseUIView.swift in Sources */,
+				C3EC5BF41ACA0A4800AD49B2 /* AngleGradientLayer.m in Sources */,
 				D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */,
 				D3D60A161AB01825003A4078 /* MapsViewController.swift in Sources */,
 				D38099DD1ACA02E600EF9DA3 /* AllCamsViewController.swift in Sources */,
@@ -605,6 +619,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PODS_ROOT}",
+				);
 				INFOPLIST_FILE = TruckingPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,6 +640,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${PODS_ROOT}",
 				);
 				INFOPLIST_FILE = TruckingPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

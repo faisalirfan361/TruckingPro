@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Uhd-kP-ujL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Uhd-kP-ujL">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9DA-jg-O8y">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9DA-jg-O8y">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fYf-aj-ea8">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fYf-aj-ea8">
                                         <rect key="frame" x="1" y="1" width="105" height="87"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=" SAFE MONTHS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfU-T1-uiE">
@@ -42,7 +42,7 @@
                                             <constraint firstItem="PfU-T1-uiE" firstAttribute="width" secondItem="fYf-aj-ea8" secondAttribute="width" constant="8" id="DuY-fD-RDs"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mbb-Lv-BDl">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mbb-Lv-BDl">
                                         <rect key="frame" x="107" y="1" width="105" height="87"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text=" SAFE MILES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEr-DX-NeM">
@@ -64,7 +64,7 @@
                                             <constraint firstAttribute="width" secondItem="HEr-DX-NeM" secondAttribute="width" id="Ml3-Hk-Ie9"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oct-mH-iY3">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oct-mH-iY3">
                                         <rect key="frame" x="213" y="1" width="107" height="87"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="OVERALL SCORE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hte-vx-QTE">
@@ -151,7 +151,7 @@
                                     <outlet property="delegate" destination="z4Z-0S-vaD" id="4hr-qI-LQ5"/>
                                 </connections>
                             </collectionView>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zPi-OZ-NbE">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zPi-OZ-NbE">
                                 <rect key="frame" x="0.0" y="321" width="320" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Safety Messages and tips" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62V-QJ-I4Y">
@@ -160,7 +160,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chat-icon" translatesAutoresizingMaskIntoConstraints="NO" id="JhL-XE-QwK">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="chat-icon" translatesAutoresizingMaskIntoConstraints="NO" id="JhL-XE-QwK">
                                         <rect key="frame" x="8" y="8" width="22" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="22" id="3cm-TV-Ijs"/>
@@ -496,7 +496,7 @@ colorado dont forget your mittens.</string>
                                         <rect key="frame" x="160" y="2" width="1" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCM-Km-hym">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCM-Km-hym">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Manager Messages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Op4-X7-5Fy">
                                                 <rect key="frame" x="32" y="9" width="128" height="21"/>
@@ -536,16 +536,16 @@ colorado dont forget your mittens.</string>
                                     <constraint firstAttribute="centerX" secondItem="Fdx-Yu-mUk" secondAttribute="centerX" constant="-0.5" id="r8V-LE-X6V"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2c-Tj-yuM">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2c-Tj-yuM">
                                 <rect key="frame" x="-56" y="105" width="600" height="69"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Kevin Blackman       " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBl-Zf-dP0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Kevin Blackman       " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBl-Zf-dP0">
                                         <rect key="frame" x="62" y="13" width="111" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user1" translatesAutoresizingMaskIntoConstraints="NO" id="n3T-Ve-wZf">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="user1" translatesAutoresizingMaskIntoConstraints="NO" id="n3T-Ve-wZf">
                                         <rect key="frame" x="8" y="11" width="45" height="45"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Today  12.00 pm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzB-RE-N9g">
@@ -554,14 +554,14 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="The wind on I15 by Ogden is fierce today" translatesAutoresizingMaskIntoConstraints="NO" id="DY4-LA-9h6">
+                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="The wind on I15 by Ogden is fierce today" translatesAutoresizingMaskIntoConstraints="NO" id="DY4-LA-9h6">
                                         <rect key="frame" x="56" y="24" width="244" height="45"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="6dZ-wK-ABI">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="6dZ-wK-ABI">
                                         <rect key="frame" x="290" y="22" width="20" height="18"/>
                                     </imageView>
                                 </subviews>
@@ -583,7 +583,7 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="user2" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-JW-lDt">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user2" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-JW-lDt">
                                         <rect key="frame" x="9" y="11" width="45" height="45"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yesterday  12.00 pm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvv-Ts-sve">
@@ -612,7 +612,7 @@ colorado dont forget your mittens.</string>
                                     <constraint firstItem="ALl-bh-KXI" firstAttribute="leading" secondItem="Ezb-JW-lDt" secondAttribute="trailing" constant="8" id="vNz-z7-mfu"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqE-vv-hSb">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqE-vv-hSb">
                                 <rect key="frame" x="0.0" y="243" width="600" height="69"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hugh Jackman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RsY-7B-eah">
@@ -622,7 +622,7 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="user3" translatesAutoresizingMaskIntoConstraints="NO" id="vIL-1v-xAY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="user3" translatesAutoresizingMaskIntoConstraints="NO" id="vIL-1v-xAY">
                                         <rect key="frame" x="9" y="11" width="45" height="45"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friday  12.00 pm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fth-j9-9z9">
@@ -632,7 +632,7 @@ colorado dont forget your mittens.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Intermittent work zones along I23" translatesAutoresizingMaskIntoConstraints="NO" id="sbC-eN-kJn">
+                                    <textView multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Intermittent work zones along I23" translatesAutoresizingMaskIntoConstraints="NO" id="sbC-eN-kJn">
                                         <rect key="frame" x="56" y="24" width="244" height="45"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -690,10 +690,10 @@ colorado dont forget your mittens.</string>
                                     <constraint firstItem="G8P-5k-mUc" firstAttribute="leading" secondItem="f8K-Cj-XOO" secondAttribute="trailing" constant="2" id="nvP-VR-5tm"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCs-SQ-HV6">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XCs-SQ-HV6">
                                 <rect key="frame" x="0.0" y="384" width="600" height="69"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Lori Newman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmd-gR-jbR">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lori Newman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmd-gR-jbR">
                                         <rect key="frame" x="62" y="13" width="111" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -880,7 +880,7 @@ colorado dont forget your mittens.</string>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 </view>
                                                 <connections>
-                                                    <segue destination="gdy-je-Z8I" kind="push" id="eNK-Gq-QVu"/>
+                                                    <segue destination="gdy-je-Z8I" kind="show" id="eNK-Gq-QVu"/>
                                                 </connections>
                                             </collectionViewCell>
                                         </cells>
@@ -924,7 +924,7 @@ colorado dont forget your mittens.</string>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="HKM-VJ-u4Z" kind="push" id="QW2-eS-U1X"/>
+                                            <segue destination="HKM-VJ-u4Z" kind="show" id="QW2-eS-U1X"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -989,7 +989,7 @@ colorado dont forget your mittens.</string>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1ik-Gp-r9z" kind="push" id="rc8-AC-pM1"/>
+                                            <segue destination="1ik-Gp-r9z" kind="show" id="rc8-AC-pM1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJy-I2-qf7">
@@ -998,7 +998,7 @@ colorado dont forget your mittens.</string>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="nJQ-uj-HPh" kind="push" id="U5l-Ol-Iwx"/>
+                                            <segue destination="nJQ-uj-HPh" kind="show" id="U5l-Ol-Iwx"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1031,7 +1031,7 @@ colorado dont forget your mittens.</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZnY-lZ-01v" kind="push" id="mK9-fZ-mVb"/>
+                                    <segue destination="ZnY-lZ-01v" kind="show" id="mK9-fZ-mVb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1135,7 +1135,7 @@ colorado dont forget your mittens.</string>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <segue destination="jR1-Pd-gd5" kind="push" id="Iov-LS-e7a"/>
+                                                <segue destination="jR1-Pd-gd5" kind="show" id="Iov-LS-e7a"/>
                                             </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKL-LH-707">
@@ -1229,7 +1229,7 @@ colorado dont forget your mittens.</string>
                                                 <constraint firstItem="oWD-rq-VDU" firstAttribute="leading" secondItem="3uE-Ve-E0g" secondAttribute="leading" id="ioo-qq-QiT"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxt-17-k3N">
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxt-17-k3N">
                                             <rect key="frame" x="11" y="123" width="299" height="27"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How was it for you?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGW-2x-pje">
@@ -1422,7 +1422,7 @@ colorado dont forget your mittens.</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rF9-as-xa3" kind="push" id="1Ig-O7-NgM"/>
+                                    <segue destination="rF9-as-xa3" kind="show" id="1Ig-O7-NgM"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-zE-AM9">
@@ -1554,7 +1554,7 @@ colorado dont forget your mittens.</string>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="jR1-Pd-gd5" kind="push" id="fJg-fF-LsP"/>
+                                            <segue destination="jR1-Pd-gd5" kind="show" id="fJg-fF-LsP"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1643,7 +1643,7 @@ colorado dont forget your mittens.</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="utA-Bx-vax" kind="push" id="MfP-6w-0mW"/>
+                                    <segue destination="utA-Bx-vax" kind="show" id="MfP-6w-0mW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2065,6 +2065,6 @@ colorado dont forget your mittens.</string>
         <image name="user5" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fJg-fF-LsP"/>
+        <segue reference="Iov-LS-e7a"/>
     </inferredMetricsTieBreakers>
 </document>
