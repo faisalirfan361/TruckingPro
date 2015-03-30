@@ -27,6 +27,8 @@
 		D37DC2121AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2001AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m */; };
 		D37DC2131AB88B78007DBC78 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2021AB88B78007DBC78 /* UIImageView+WebCache.m */; };
 		D37DC2141AB88B78007DBC78 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */; };
+		D38099D51AC9FEE500EF9DA3 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099D41AC9FEE500EF9DA3 /* BaseTableView.swift */; };
+		D38099D71AC9FF3700EF9DA3 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099D61AC9FF3700EF9DA3 /* BaseUIView.swift */; };
 		D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */; };
 		D3BCB9CC1AAFCF7A00945671 /* TruckingPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9CA1AAFCF7A00945671 /* TruckingPro.xcdatamodeld */; };
 		D3BCB9CE1AAFCF7A00945671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9CD1AAFCF7A00945671 /* ViewController.swift */; };
@@ -150,6 +152,8 @@
 		D37DC2021AB88B78007DBC78 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		D37DC2031AB88B78007DBC78 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		D38099D41AC9FEE500EF9DA3 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		D38099D61AC9FF3700EF9DA3 /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
 		D3BCB9C31AAFCF7A00945671 /* TruckingPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckingPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BCB9C71AAFCF7A00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -278,6 +282,15 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		D38099D21AC9FE6D00EF9DA3 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D38099D41AC9FEE500EF9DA3 /* BaseTableView.swift */,
+				D38099D61AC9FF3700EF9DA3 /* BaseUIView.swift */,
+			);
+			name = BaseControllers;
+			sourceTree = "<group>";
+		};
 		D3BCB9BA1AAFCF7900945671 = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +332,7 @@
 		D3BCB9C51AAFCF7A00945671 /* TruckingPro */ = {
 			isa = PBXGroup;
 			children = (
+				D38099D21AC9FE6D00EF9DA3 /* BaseControllers */,
 				D35642751AC70E8200878BC3 /* models */,
 				D3BCBA051AAFD1F900945671 /* commons */,
 				D3BCB9EC1AAFD1A100945671 /* controllers */,
@@ -544,6 +558,7 @@
 				D3BCB9FB1AAFD1F200945671 /* AngleGradientBorderView.swift in Sources */,
 				D30E9C5B1ABF4E2600C558AF /* CamUploadsViewController.swift in Sources */,
 				D3BCBA0A1AAFD26C00945671 /* AngleGradientLayer.m in Sources */,
+				D38099D51AC9FEE500EF9DA3 /* BaseTableView.swift in Sources */,
 				D37DC2121AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m in Sources */,
 				D3BCBA041AAFD1F200945671 /* ThreatViewController.swift in Sources */,
 				D3BCB9FA1AAFD1F200945671 /* AngleGradientBorderLayer.swift in Sources */,
@@ -566,6 +581,7 @@
 				D37DC2071AB88B78007DBC78 /* SDImageCache.m in Sources */,
 				D37DC20A1AB88B78007DBC78 /* SDWebImageDownloader.m in Sources */,
 				D3BCBA011AAFD1F200945671 /* SafetyMsgsTipsViewController.swift in Sources */,
+				D38099D71AC9FF3700EF9DA3 /* BaseUIView.swift in Sources */,
 				D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */,
 				D37DC2101AB88B78007DBC78 /* UIImage+MultiFormat.m in Sources */,
 				D37DC20E1AB88B78007DBC78 /* UIButton+WebCache.m in Sources */,

@@ -8,11 +8,13 @@
 
 import Foundation
 
-class MapsViewController: UIViewController, GMSMapViewDelegate {
+class MapsViewController: BaseUIViewController, GMSMapViewDelegate {
     
     @IBOutlet weak var mapsContainer: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        super.setBG()
     }
     
     override func viewDidLayoutSubviews() {

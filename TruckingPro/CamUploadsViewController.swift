@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Smash Analytics. All rights reserved.
 //
 
-class CamUploadsViewController: UIViewController, UICollectionViewDelegate,UIImagePickerControllerDelegate, UICollectionViewDataSource,UINavigationControllerDelegate {
+class CamUploadsViewController: BaseUIViewController, UICollectionViewDelegate,UIImagePickerControllerDelegate, UICollectionViewDataSource,UINavigationControllerDelegate {
     
     var picker:UIImagePickerController?=UIImagePickerController()
     var images = []
@@ -15,7 +15,7 @@ class CamUploadsViewController: UIViewController, UICollectionViewDelegate,UIIma
     override func viewDidLoad() {
         super.viewDidLoad()
         loadJSON()
-        super.viewDidLoad()
+        super.setBG()
         picker!.delegate=self
     }
 
