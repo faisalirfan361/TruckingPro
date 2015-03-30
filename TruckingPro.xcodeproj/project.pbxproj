@@ -29,6 +29,15 @@
 		D37DC2141AB88B78007DBC78 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */; };
 		D38099D51AC9FEE500EF9DA3 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099D41AC9FEE500EF9DA3 /* BaseTableView.swift */; };
 		D38099D71AC9FF3700EF9DA3 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099D61AC9FF3700EF9DA3 /* BaseUIView.swift */; };
+		D38099DB1ACA02AD00EF9DA3 /* cam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099DA1ACA02AD00EF9DA3 /* cam.swift */; };
+		D38099DD1ACA02E600EF9DA3 /* AllCamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099DC1ACA02E600EF9DA3 /* AllCamsViewController.swift */; };
+		D38099DF1ACA032A00EF9DA3 /* CamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099DE1ACA032A00EF9DA3 /* CamsViewController.swift */; };
+		D38099E11ACA035A00EF9DA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099E01ACA035A00EF9DA3 /* HomeViewController.swift */; };
+		D38099E71ACA041500EF9DA3 /* SafetyMsgsTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099E61ACA041500EF9DA3 /* SafetyMsgsTipsViewController.swift */; };
+		D38099E91ACA044200EF9DA3 /* TheartEvalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099E81ACA044200EF9DA3 /* TheartEvalViewController.swift */; };
+		D38099EB1ACA045E00EF9DA3 /* ThreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099EA1ACA045E00EF9DA3 /* ThreatViewController.swift */; };
+		D38099ED1ACA048600EF9DA3 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099EC1ACA048600EF9DA3 /* SharedData.swift */; };
+		D38099EF1ACA054800EF9DA3 /* SafetyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */; };
 		D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */; };
 		D3BCB9CC1AAFCF7A00945671 /* TruckingPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9CA1AAFCF7A00945671 /* TruckingPro.xcdatamodeld */; };
 		D3BCB9CE1AAFCF7A00945671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9CD1AAFCF7A00945671 /* ViewController.swift */; };
@@ -36,18 +45,8 @@
 		D3BCB9D31AAFCF7A00945671 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BCB9D21AAFCF7A00945671 /* Images.xcassets */; };
 		D3BCB9D61AAFCF7B00945671 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3BCB9D41AAFCF7B00945671 /* LaunchScreen.xib */; };
 		D3BCB9E21AAFCF7B00945671 /* TruckingProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9E11AAFCF7B00945671 /* TruckingProTests.swift */; };
-		D3BCB9F91AAFD1F200945671 /* AllCamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9ED1AAFD1F200945671 /* AllCamsViewController.swift */; };
 		D3BCB9FA1AAFD1F200945671 /* AngleGradientBorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9EE1AAFD1F200945671 /* AngleGradientBorderLayer.swift */; };
 		D3BCB9FB1AAFD1F200945671 /* AngleGradientBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9EF1AAFD1F200945671 /* AngleGradientBorderView.swift */; };
-		D3BCB9FC1AAFD1F200945671 /* cam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F01AAFD1F200945671 /* cam.swift */; };
-		D3BCB9FD1AAFD1F200945671 /* CamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F11AAFD1F200945671 /* CamsViewController.swift */; };
-		D3BCB9FE1AAFD1F200945671 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F21AAFD1F200945671 /* HomeViewController.swift */; };
-		D3BCB9FF1AAFD1F200945671 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F31AAFD1F200945671 /* MapViewController.swift */; };
-		D3BCBA001AAFD1F200945671 /* SafetyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F41AAFD1F200945671 /* SafetyDetailsViewController.swift */; };
-		D3BCBA011AAFD1F200945671 /* SafetyMsgsTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F51AAFD1F200945671 /* SafetyMsgsTipsViewController.swift */; };
-		D3BCBA021AAFD1F200945671 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F61AAFD1F200945671 /* SharedData.swift */; };
-		D3BCBA031AAFD1F200945671 /* TheartEvalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F71AAFD1F200945671 /* TheartEvalViewController.swift */; };
-		D3BCBA041AAFD1F200945671 /* ThreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCB9F81AAFD1F200945671 /* ThreatViewController.swift */; };
 		D3BCBA0A1AAFD26C00945671 /* AngleGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BCBA091AAFD26C00945671 /* AngleGradientLayer.m */; };
 		D3BCBA3A1AAFD7FD00945671 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCBA391AAFD7FD00945671 /* SwiftyJSON.swift */; };
 		D3D609FE1AB00DF5003A4078 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D609FD1AB00DF5003A4078 /* GoogleMaps.framework */; };
@@ -154,6 +153,15 @@
 		D37DC2041AB88B78007DBC78 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		D38099D41AC9FEE500EF9DA3 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
 		D38099D61AC9FF3700EF9DA3 /* BaseUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
+		D38099DA1ACA02AD00EF9DA3 /* cam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cam.swift; sourceTree = "<group>"; };
+		D38099DC1ACA02E600EF9DA3 /* AllCamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCamsViewController.swift; sourceTree = "<group>"; };
+		D38099DE1ACA032A00EF9DA3 /* CamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamsViewController.swift; sourceTree = "<group>"; };
+		D38099E01ACA035A00EF9DA3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D38099E61ACA041500EF9DA3 /* SafetyMsgsTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyMsgsTipsViewController.swift; sourceTree = "<group>"; };
+		D38099E81ACA044200EF9DA3 /* TheartEvalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheartEvalViewController.swift; sourceTree = "<group>"; };
+		D38099EA1ACA045E00EF9DA3 /* ThreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreatViewController.swift; sourceTree = "<group>"; };
+		D38099EC1ACA048600EF9DA3 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyDetailsViewController.swift; path = TruckingPro/SafetyDetailsViewController.swift; sourceTree = "<group>"; };
 		D3BCB9C31AAFCF7A00945671 /* TruckingPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckingPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BCB9C71AAFCF7A00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BCB9C81AAFCF7A00945671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,18 +173,8 @@
 		D3BCB9DB1AAFCF7B00945671 /* TruckingProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckingProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BCB9E01AAFCF7B00945671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BCB9E11AAFCF7B00945671 /* TruckingProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckingProTests.swift; sourceTree = "<group>"; };
-		D3BCB9ED1AAFD1F200945671 /* AllCamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllCamsViewController.swift; path = "../../CR-England/CR-England/CR-England/AllCamsViewController.swift"; sourceTree = "<group>"; };
 		D3BCB9EE1AAFD1F200945671 /* AngleGradientBorderLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AngleGradientBorderLayer.swift; path = "../../CR-England/CR-England/CR-England/AngleGradientBorderLayer.swift"; sourceTree = "<group>"; };
 		D3BCB9EF1AAFD1F200945671 /* AngleGradientBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AngleGradientBorderView.swift; path = "../../CR-England/CR-England/CR-England/AngleGradientBorderView.swift"; sourceTree = "<group>"; };
-		D3BCB9F01AAFD1F200945671 /* cam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cam.swift; path = "../../CR-England/CR-England/CR-England/cam.swift"; sourceTree = "<group>"; };
-		D3BCB9F11AAFD1F200945671 /* CamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CamsViewController.swift; path = "../../CR-England/CR-England/CR-England/CamsViewController.swift"; sourceTree = "<group>"; };
-		D3BCB9F21AAFD1F200945671 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../CR-England/CR-England/CR-England/HomeViewController.swift"; sourceTree = "<group>"; };
-		D3BCB9F31AAFD1F200945671 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "../../CR-England/CR-England/CR-England/MapViewController.swift"; sourceTree = "<group>"; };
-		D3BCB9F41AAFD1F200945671 /* SafetyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyDetailsViewController.swift; path = "../../CR-England/CR-England/CR-England/SafetyDetailsViewController.swift"; sourceTree = "<group>"; };
-		D3BCB9F51AAFD1F200945671 /* SafetyMsgsTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafetyMsgsTipsViewController.swift; path = "../../CR-England/CR-England/CR-England/SafetyMsgsTipsViewController.swift"; sourceTree = "<group>"; };
-		D3BCB9F61AAFD1F200945671 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedData.swift; path = "../../CR-England/CR-England/CR-England/SharedData.swift"; sourceTree = "<group>"; };
-		D3BCB9F71AAFD1F200945671 /* TheartEvalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheartEvalViewController.swift; path = "../../CR-England/CR-England/CR-England/TheartEvalViewController.swift"; sourceTree = "<group>"; };
-		D3BCB9F81AAFD1F200945671 /* ThreatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThreatViewController.swift; path = "../../CR-England/CR-England/CR-England/ThreatViewController.swift"; sourceTree = "<group>"; };
 		D3BCBA081AAFD26C00945671 /* AngleGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AngleGradientLayer.h; path = "../../CR-England/CR-England/CR-England/AngleGradientLayer.h"; sourceTree = "<group>"; };
 		D3BCBA091AAFD26C00945671 /* AngleGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AngleGradientLayer.m; path = "../../CR-England/CR-England/CR-England/AngleGradientLayer.m"; sourceTree = "<group>"; };
 		D3BCBA0E1AAFD3F400945671 /* TruckingPro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TruckingPro-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -237,7 +235,7 @@
 		D35642751AC70E8200878BC3 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				D3BCB9F01AAFD1F200945671 /* cam.swift */,
+				D38099DA1ACA02AD00EF9DA3 /* cam.swift */,
 			);
 			name = models;
 			sourceTree = "<group>";
@@ -294,6 +292,7 @@
 		D3BCB9BA1AAFCF7900945671 = {
 			isa = PBXGroup;
 			children = (
+				D38099EE1ACA054800EF9DA3 /* SafetyDetailsViewController.swift */,
 				D3EAECCB1AC0B6BC00C6CBA3 /* Alamofire.xcodeproj */,
 				D37DC1E31AB88B78007DBC78 /* SDWebImage */,
 				D37DC1E11AB88976007DBC78 /* UIKit.framework */,
@@ -375,15 +374,13 @@
 		D3BCB9EC1AAFD1A100945671 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D3BCB9ED1AAFD1F200945671 /* AllCamsViewController.swift */,
-				D3BCB9F11AAFD1F200945671 /* CamsViewController.swift */,
-				D3BCB9F21AAFD1F200945671 /* HomeViewController.swift */,
-				D3BCB9F31AAFD1F200945671 /* MapViewController.swift */,
-				D3BCB9F41AAFD1F200945671 /* SafetyDetailsViewController.swift */,
-				D3BCB9F51AAFD1F200945671 /* SafetyMsgsTipsViewController.swift */,
-				D3BCB9F61AAFD1F200945671 /* SharedData.swift */,
-				D3BCB9F71AAFD1F200945671 /* TheartEvalViewController.swift */,
-				D3BCB9F81AAFD1F200945671 /* ThreatViewController.swift */,
+				D38099EC1ACA048600EF9DA3 /* SharedData.swift */,
+				D38099EA1ACA045E00EF9DA3 /* ThreatViewController.swift */,
+				D38099E81ACA044200EF9DA3 /* TheartEvalViewController.swift */,
+				D38099E61ACA041500EF9DA3 /* SafetyMsgsTipsViewController.swift */,
+				D38099E01ACA035A00EF9DA3 /* HomeViewController.swift */,
+				D38099DE1ACA032A00EF9DA3 /* CamsViewController.swift */,
+				D38099DC1ACA02E600EF9DA3 /* AllCamsViewController.swift */,
 				D3D60A151AB01825003A4078 /* MapsViewController.swift */,
 				D30E9C5A1ABF4E2600C558AF /* CamUploadsViewController.swift */,
 			);
@@ -554,33 +551,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38099ED1ACA048600EF9DA3 /* SharedData.swift in Sources */,
 				D37DC2141AB88B78007DBC78 /* UIView+WebCacheOperation.m in Sources */,
 				D3BCB9FB1AAFD1F200945671 /* AngleGradientBorderView.swift in Sources */,
 				D30E9C5B1ABF4E2600C558AF /* CamUploadsViewController.swift in Sources */,
+				D38099E11ACA035A00EF9DA3 /* HomeViewController.swift in Sources */,
 				D3BCBA0A1AAFD26C00945671 /* AngleGradientLayer.m in Sources */,
 				D38099D51AC9FEE500EF9DA3 /* BaseTableView.swift in Sources */,
 				D37DC2121AB88B78007DBC78 /* UIImageView+HighlightedWebCache.m in Sources */,
-				D3BCBA041AAFD1F200945671 /* ThreatViewController.swift in Sources */,
+				D38099E91ACA044200EF9DA3 /* TheartEvalViewController.swift in Sources */,
 				D3BCB9FA1AAFD1F200945671 /* AngleGradientBorderLayer.swift in Sources */,
+				D38099E71ACA041500EF9DA3 /* SafetyMsgsTipsViewController.swift in Sources */,
 				D3BCB9CE1AAFCF7A00945671 /* ViewController.swift in Sources */,
 				D37DC20C1AB88B78007DBC78 /* SDWebImageManager.m in Sources */,
 				D37DC2091AB88B78007DBC78 /* SDWebImageDecoder.m in Sources */,
-				D3BCB9FF1AAFD1F200945671 /* MapViewController.swift in Sources */,
 				D3BCB9CC1AAFCF7A00945671 /* TruckingPro.xcdatamodeld in Sources */,
+				D38099EF1ACA054800EF9DA3 /* SafetyDetailsViewController.swift in Sources */,
 				D37DC20D1AB88B78007DBC78 /* SDWebImagePrefetcher.m in Sources */,
+				D38099EB1ACA045E00EF9DA3 /* ThreatViewController.swift in Sources */,
+				D38099DB1ACA02AD00EF9DA3 /* cam.swift in Sources */,
 				D37DC2131AB88B78007DBC78 /* UIImageView+WebCache.m in Sources */,
-				D3BCB9F91AAFD1F200945671 /* AllCamsViewController.swift in Sources */,
-				D3BCB9FE1AAFD1F200945671 /* HomeViewController.swift in Sources */,
-				D3BCB9FC1AAFD1F200945671 /* cam.swift in Sources */,
 				D37DC20F1AB88B78007DBC78 /* UIImage+GIF.m in Sources */,
 				D37DC2111AB88B78007DBC78 /* UIImage+WebP.m in Sources */,
 				D37DC2061AB88B78007DBC78 /* NSData+ImageContentType.m in Sources */,
 				D37DC2081AB88B78007DBC78 /* SDWebImageCompat.m in Sources */,
-				D3BCBA001AAFD1F200945671 /* SafetyDetailsViewController.swift in Sources */,
-				D3BCB9FD1AAFD1F200945671 /* CamsViewController.swift in Sources */,
 				D37DC2071AB88B78007DBC78 /* SDImageCache.m in Sources */,
 				D37DC20A1AB88B78007DBC78 /* SDWebImageDownloader.m in Sources */,
-				D3BCBA011AAFD1F200945671 /* SafetyMsgsTipsViewController.swift in Sources */,
 				D38099D71AC9FF3700EF9DA3 /* BaseUIView.swift in Sources */,
 				D3BCB9C91AAFCF7A00945671 /* AppDelegate.swift in Sources */,
 				D37DC2101AB88B78007DBC78 /* UIImage+MultiFormat.m in Sources */,
@@ -589,8 +585,8 @@
 				D37DC2051AB88B78007DBC78 /* MKAnnotationView+WebCache.m in Sources */,
 				D37DC20B1AB88B78007DBC78 /* SDWebImageDownloaderOperation.m in Sources */,
 				D3D60A161AB01825003A4078 /* MapsViewController.swift in Sources */,
-				D3BCBA031AAFD1F200945671 /* TheartEvalViewController.swift in Sources */,
-				D3BCBA021AAFD1F200945671 /* SharedData.swift in Sources */,
+				D38099DD1ACA02E600EF9DA3 /* AllCamsViewController.swift in Sources */,
+				D38099DF1ACA032A00EF9DA3 /* CamsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

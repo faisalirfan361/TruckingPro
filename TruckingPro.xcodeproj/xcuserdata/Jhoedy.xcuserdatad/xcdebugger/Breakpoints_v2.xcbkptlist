@@ -14,9 +14,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "5">
+            endingLineNumber = "15">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,9 +28,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "loadJSON()"
-            landmarkType = "5">
+            endingLineNumber = "133">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -46,9 +42,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "collectionView(_:numberOfItemsInSection:)"
-            landmarkType = "5">
+            endingLineNumber = "66">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,9 +56,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "142"
-            endingLineNumber = "142"
-            landmarkName = "CamUploadsViewController"
-            landmarkType = "3">
+            endingLineNumber = "142">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,9 +70,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "collectionView(_:cellForItemAtIndexPath:)"
-            landmarkType = "5">
+            endingLineNumber = "81">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
